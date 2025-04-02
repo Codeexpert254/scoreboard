@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+
+}
+
+h3 {
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+    width: 149px;
+}
+
+.scores-el {
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #080001;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    border: none;
+    
+
+}
+
+
+
+
+.increment-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 2px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.scores {
+    margin-top: 26px;
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #9AABD8;
+    margin-bottom: 68px;
+
+}
+
+.scores button {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+
+}
